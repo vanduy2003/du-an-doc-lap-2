@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <!-- embed FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- css-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- favicon -->
+
+
+
+</head>
+
+<body>
+    <!-------------- Header  ---------------->
+    <header class="header fixed">
+        <div class="container">
+            <!-------------- Header top -------------->
+            <div class="header-top fixed">
+                <!-- Logo -->
+                <a href="/">
+                    <img src="assets/img/logo11.png" alt="" class="logo">
+                </a>
+
+                <!-- Navbar -->
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="#!" class="navbar__link navbar__link--active">Home</a
+                            >
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#!" class="navbar__link">About</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#!" class="navbar__link">Blog</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#!" class="navbar__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Search -->
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input1">
+                </div>
+
+                <!-- Action -->
+                <div class="header-action">
+
+                    <button class="header-action__signup" onclick="window.location.href='login.html';">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <!-------------------- Hero -------------------->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__body">
+                    <!--- hero-left --->
+                    <div class="hero-left">
+                        <h1 class="hero__left-headding">We’re a creative design agency.</h1>
+                        <p class="hero__left-desc">A brilliant, modular agency template for startup’s build yours toady.</p>
+                        <div class="cta-group">
+                            <a href="" class="hero__left-btn">Get in touch</a>
+                            <div class="watch-video-group">
+                                <div class="watch-boder">
+                                    <button class="watch-play">
+                                        <img src="assets/img/play.svg" alt="" class="hero__left-img">
+                                    </button>
+                                </div>
+                                <span class="watch-desc">Watch Video</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- hero-right --->
+                    <div class="hero-right">
+                        <div class="hero__right-image">
+                            <img src="assets/img/avata2.jpg" alt="" class="hero__right-img">
+                            <img src="assets/img/FZUHE5395.JPG" alt="" class="hero__right-img">
+                            <img src="assets/img/z4452585685896_abc558cdc50fd31740e58a7ead1eb746.jpg" alt="" class="hero__right-img">
+                            <div class="background__img"></div>
+                            <img src="assets/img/extra avstract.svg" alt="" class="hero__right-img1">
+                            <img src="assets/img/Vector 2639.svg" alt="" class="hero__right-imga">
+                            <img src="assets/img/Vector 2639.svg" alt="" class="hero__right-img2">
+                            <img src="assets/img/extra avstract.svg" alt="" class="hero__right-imgb">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-------------------- brand -------------------->
+        <section class="brand">
+            <div class="container">
+                <div class="brand__block">
+                    <a href="" class="brand__block-img">
+                        <img src="assets/img/Google.png" alt="">
+                    </a>
+                    <a href="" class="brand__block-img">
+                        <img src="assets/img/Group 16.png" alt="">
+                    </a>
+                    <a href="" class="brand__block-img">
+                        <img src="assets/img/Group 13.png" alt="">
+                        <span>Agworld</span>
+                    </a>
+                    <a href="" class="brand__block-img">
+                        <img src="assets/img/RioTinto.png" alt="">
+                    </a>
+                    <a href="" class="brand__block-img">
+                        <img src="assets/img/Group 17.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-------------------- service -------------------->
+        <section class="service">
+            <div class="container">
+                <div class="service__header">
+                    <div class="service__header-title">OUR SERVICES</div>
+                    <div class="service__header-row">
+                        <h2 class="service__header-headding">We offer a wide range of design services</h2>
+                        <div class="service__cta">
+                            <a href="" class="service__cta-arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                    <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                            </a>
+                            <a href="" class="service__cta-arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service__list">
+                    <!--- item 1 ---->
+                    <div class="service__list-item">
+                        <figure class="service__item-thum"><img src="assets/img/logo123.jpg" class="service__item-img"></figure>
+                        <div class="service__item-body">
+                            <h3 class="service__item-title">Branding</h3>
+                            <p class="service-item__desc">Create beautiful Agency website with Boluethat converts more visitors than any website.</p>
+                        </div>
+                    </div>
+                    <!--- item 2 ---->
+                    <div class="service__list-item">
+                        <figure class="service__item-thum"><img src="assets/img/logo134.jpg" class="service__item-img"></figure>
+                        <div class="service__item-body">
+                            <h3 class="service__item-title">Web Design</h3>
+                            <p class="service-item__desc">Create beautiful Agency website with Boluethat converts more visitors than any website.</p>
+                        </div>
+                    </div>
+                    <!--- item 3 ---->
+                    <div class="service__list-item">
+                        <figure class="service__item-thum"><img src="assets/img/logo321.jpg" class="service__item-img"></figure>
+                        <div class="service__item-body">
+                            <h3 class="service__item-title">Graphic Design</h3>
+                            <p class="service-item__desc">Create beautiful Agency website with Boluethat converts more visitors than any website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------- about -------------------->
+        <section class="about">
+            <div class="container">
+                <div class="about__block">
+                    <!--- block-left ---->
+                    <div class="about__block-left">
+                        <figure class="about__left-image">
+                            <img src="assets/img/z4452585685896_abc558cdc50fd31740e58a7ead1eb746.jpg" alt="" class="about__left-img">
+                            <img src="assets/img/ly-01.jpg" alt="" class="about__left-img">
+                            <img src="assets/img/extra avstract.svg" alt="" class="about__left-imga">
+                            <img src="assets/img/Vector 2639.svg" alt="" class="about__left-imgb">
+                        </figure>
+                        <div class="about__left-desingner">
+                            <div class="about__desingner-body">
+                                <h3 class="about__desingner-title">All Desingners</h3>
+                                <span class="about__desingner-desc">Total Balance</span>
+                                <span class="about__desingner-number">40%</span>
+                                <div class="about__desingner-block"></div>
+                                <span class="about__desingner-loading">Loading...</span>
+                                <div class="about__desingner-circle"></div>
+                                <div class="about__desingner-row">
+                                    <div class="about__row-group">
+                                        <span class="about__row-desc">Teams:</span>
+                                        <figure class="about__row-list">
+                                            <div class="about__row-item">
+                                                <img src="assets/img/Ellipse 4017.png" alt="" class="about__row-person">
+                                            </div>
+                                            <div class="about__row-item">
+                                                <img src="assets/img/Ellipse 4017.png" alt="" class="about__row-person">
+                                            </div>
+                                            <div class="about__row-item">
+                                                <img src="assets/img/Ellipse 4017.png" alt="" class="about__row-person">
+                                            </div>
+                                            <div class="about__row-item">
+                                                <img src="assets/img/Ellipse 4017.png" alt="" class="about__row-person">
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- block-right ---->
+                    <div class="about__block-right">
+                        <h4 class="about__right-title">ABOUT US</h4>
+                        <h2 class="about__right-headding">We are an extention of your creative team</h2>
+                        <p class="about__right-desc">At the start of every project, we cusomizea detailed project plan together with you set exectationns ensure alighment and define key milestones and deiverbles.</p>
+                        <div class="about__right-row">
+                            <span class="about__right-number">48%</span>
+                            <p class="about__right-row-desc">Are you strive for two things in design simplicity and clarity. Great design is born of those two things
+                            </p>
+                        </div>
+                        <div class="about__right-hr"></div>
+                        <div class="about__right-row">
+                            <span class="about__right-number">26%</span>
+                            <p class="about__right-row-desc">Are you strive for two things in design simplicity and clarity. Great design is born of those two things
+                            </p>
+                        </div>
+                        <div class="about__right-hr"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------- PROCESS -------------------->
+        <section class="process">
+            <div class="container">
+                <p class="process__title">OUR PROCESS</p>
+                <h2 class="process__headding">A simple ,yet effective three step process</h2>
+                <div class="process__list">
+                    <!-- list-item 1 -->
+                    <div class="process__list-item">
+                        <div class="process__item-number">01.</div>
+                        <div class="process__item-content">
+                            <div class="process__content-title">Project idea</div>
+                            <a href="" class="process__content-link">Learn More</a>
+                        </div>
+                        <img src="assets/img/image.png" alt="" class="process__item-img">
+                        <div class="process__item-hr"></div>
+                    </div>
+
+                    <!-- list-item 2 -->
+                    <div class="process__list-item">
+                        <div class="process__item-number">02.</div>
+                        <div class="process__item-content">
+                            <div class="process__content-title">Brainstormaing</div>
+                            <a href="" class="process__content-link">Learn More</a>
+                        </div>
+                        <p class="process__item-desc">We customse a ensure aligment and difine key mileones and defiverables experience tells us the best solutions are the ones deated with clients.</p>
+                        <div class="process__item-hr"></div>
+                    </div>
+
+                    <!-- list-item 3 -->
+                    <div class="process__list-item">
+                        <div class="process__item-number">03.</div>
+                        <div class="process__item-content">
+                            <div class="process__content-title">Execution</div>
+                            <a href="" class="process__content-link">Learn More</a>
+                        </div>
+                        <p class="process__item-desc">We customse a ensure aligment and difine key mileones and defiverables experience tells us the best solutions are the ones deated with clients.</p>
+                        <div class="process__item-hr"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-------------------- features -------------------->
+        <section class="features">
+            <div class="container">
+                <div class="features__header">
+                    <div class="features__header-content">
+                        <h2 class="features__header-headding">A quick glance of our past projects</h2>
+                        <div class="features__header-body">
+                            <p class="features__header-desc">Are you strive for the fast project simplicity and clarity. Great design is born of those two things.
+                            </p>
+                            <div class="features__header-group">
+                                <a href="" class="features__header-link">Browse all Projects</a>
+                                <img src="assets/img/left arrow.svg" alt="" class="features__header-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features__audio">
+                    <video src="assets/img/xinloi.mp4" class="features__audio-video" type="video/mp4" controls></video>
+                    <img src="assets/img/extra avstract.svg" alt="" class="features__audio-img">
+                    <img src="assets/img/Vector 2639.svg" alt="" class="features__audio-img1">
+                </div>
+            </div>
+        </section>
+        <!---------------------- Share ------------------>
+        <section class="share">
+            <div class="container">
+                <div class="share__block">
+                    <div class="share__top__heading">
+                        <h2 class="share__title">
+                            Share the features that help your customers
+                        </h2>
+                        <p class="share__desc">You already know that the customer experience doesn't end with a sale — it's an ongoing work in progress that companies should be constantly seeking to improve and iterate on.</p>
+                    </div>
+                    <div class="share__bottom">
+                        <div class="share__list-item">
+
+                            <div class="share__item">
+                                <figure class="share__item__images">
+                                    <img src="assets/img/blog 1.png" alt="" class="share__item__img">
+                                </figure>
+                                <h3 class="share__item__title">Blog</h3>
+                                <p class="share__item__desc">We’ve researched numerous agencies and complied a list of digital marketing agency blogs you should read to stay ahead of your rivals and succeed online!</p>
+                            </div>
+
+                            <div class="share__item">
+                                <figure class="share__item__images">
+                                    <img src="assets/img/file 1.png" alt="" class="share__item__img">
+                                </figure>
+                                <h3 class="share__item__title">Documention</h3>
+                                <p class="share__item__desc">In this article, we discuss the different types of documentation, what makes for great technical documentation, and provide examples.</p>
+                            </div>
+
+                            <div class="share__item">
+                                <figure class="share__item__images">
+                                    <img src="assets/img/customer (1) 1.png" alt="" class="share__item__img">
+                                </figure>
+                                <h3 class="share__item__title">Customers</h3>
+                                <p class="share__item__desc">Your customers have high expectations — and if your business can't meet them, they're going to leave you for your competitors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------ Blog ----------------------->
+        <section class="blog">
+            <div class="container">
+                <div class="blog__block">
+                    <div class="blog__top">
+                        <h3 class="blog__top__title">BLOG & ARTICLES</h3>
+                        <div class="blog__top__row">
+                            <h2 class="blog__row-title">Take a look at our latest articles and resources</h2>
+                            <p class="blog__row-desc">The best agency are the ones ideated with clients. we corporate your ideas with memorable</p>
+                        </div>
+                    </div>
+                    <div class="blog__bottom">
+                        <div class="blog__list-item">
+                            <!--- blog__item ---->
+                            <div class="blog__item">
+                                <figure class="blog__item__images">
+                                    <img src="assets/img/logo-01.jpg" alt="" class="blog__item__img">
+                                </figure>
+                                <div class="blog__item__info">
+                                    <a href="#!" class="btn blog__item--btn">STORIES</a>
+                                    <h3 class="blog__item__title">What did we learn from nunning over 100 design sprints in less the year?</h3>
+                                    <div class="blog__hr"></div>
+                                    <p class="blog__item__date">JANUARY 29, 2022</p>
+                                </div>
+                            </div>
+                            <!--- blog__item ---->
+                            <div class="blog__item">
+                                <figure class="blog__item__images">
+                                    <img src="assets/img/logo-02.jpg" alt="" class="blog__item__img">
+                                </figure>
+                                <div class="blog__item__info">
+                                    <a href="#!" class="btn blog__item--btn">STORIES</a>
+                                    <h3 class="blog__item__title">The difference between the UI/UX design a simple guide for beginner’s?</h3>
+                                    <div class="blog__hr"></div>
+                                    <p class="blog__item__date">JANUARY 29, 2022</p>
+                                </div>
+                            </div>
+                            <!--- blog__item ---->
+                            <div class="blog__item">
+                                <figure class="blog__item__images">
+                                    <img src="assets/img/logo321.jpg" alt="" class="blog__item__img">
+                                </figure>
+                                <div class="blog__item__info">
+                                    <a href="#!" class="btn blog__item--btn">STORIES</a>
+                                    <h3 class="blog__item__title">How marketing can help your business more than anything.</h3>
+                                    <div class="blog__hr"></div>
+                                    <p class="blog__item__date">JANUARY 29, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------- Footer  ---------------->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__block">
+                    <article class="footer__link">
+                        <h2 class="footer__title">Sign up for our newsletter</h2>
+                        <form action="" class="footer__fill-info">
+                            <input type="text" class="footer__input" placeholder="Enter your email">
+                            <img src="assets/img/Vector 2622.svg" alt="" class="footer__fill-img">
+                        </form>
+
+                        <div class="footer__social">
+                            <a href="#!">
+                                <div class="footer__social__block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><style>svg{fill:#ffffff}</style><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <div class="footer__social__block">
+                                    <div class="footer__social__block__vuong">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#ffffff}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#!">
+                                <div class="footer__social__block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#ffffff}</style><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </article>
+                    <div class="footer__list__item">
+                        <div class="footer__item">
+                            <h3 class="footer__item__title">Pages</h3>
+                            <ul class="footer__item__list">
+                                <li class="footer__item__block  ">
+                                    <a href="#!" class="footer__item-nav">Home</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h3 class="footer__item__title">Pages</h3>
+                            <ul class="footer__item__list">
+                                <li class="footer__item__block  ">
+                                    <a href="#!" class="footer__item-nav">Home</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">Home</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">Home</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h3 class="footer__item__title">Product</h3>
+                            <ul class="footer__item__list">
+                                <li class="footer__item__block  ">
+                                    <a href="#!" class="footer__item-nav">Home</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h3 class="footer__item__title">Overview</h3>
+                            <ul class="footer__item__list">
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">Home</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                                <li class="footer__item__block ">
+                                    <a href="#!" class="footer__item-nav">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__hr"></div>
+            </div>
+        </footer>
+
+    </main>
+
+
+</body>
+
+</html>
