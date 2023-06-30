@@ -30,9 +30,9 @@ body {
 }
 
 .login-headding {
-    margin-top: 40px;
-    font-weight: 700;
-    font-size: 60px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 50px;
     line-height: 60px;
     text-align: center;
     /* or 114% */
@@ -180,7 +180,7 @@ input {
 
 .login-social {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .login-social-desc {

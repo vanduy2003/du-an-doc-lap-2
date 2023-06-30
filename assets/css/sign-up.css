@@ -30,9 +30,9 @@ body {
 }
 
 .login-headding {
-    margin-top: 50px;
-    font-weight: 700;
-    font-size: 55px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 50px;
     line-height: 60px;
     text-align: center;
     /* or 114% */
@@ -42,7 +42,7 @@ body {
 }
 
 .login-form {
-    margin: 43px;
+    margin: 25px 43px 25px;
     margin-bottom: 25px;
 }
 
@@ -118,8 +118,8 @@ body {
 .login-social {
     position: relative;
     text-align: center;
-    margin-bottom: 60px;
-    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .login-social::before {
@@ -141,7 +141,7 @@ body {
     /* or 175% */
     color: #2a2828;
     margin-right: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .socal-link {
@@ -181,7 +181,7 @@ body {
 .sign-up {
     margin-top: -20px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 42px;
 }
 
 .signup-link {
