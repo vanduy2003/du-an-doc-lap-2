@@ -33,6 +33,12 @@ a {
     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 }
 
+.logo {
+    width: 200px;
+    height: 85px;
+    object-fit: cover;
+}
+
 .fixed {
     position: sticky;
     top: -22px;
